@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body
+{
+    background-image: linear-gradient(to bottom,#669079, #7F5B3B);
+    background-attachment: fixed;
+    
+}
+main
+{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px  #669079;
+    background-color: aliceblue;
+
+    
+}
+h1#principal
+{
+ color: aliceblue;   
+ text-align: center;
+ background-color: black;
+
+
+}
+.basico{
+    text-align: center;
+    color: rgb(41, 97, 170);
+}
+.medio{
+    color: rgb(223, 243, 43);
+    text-align: center;
+}
+.avancado{
+    color: rgb(245, 89, 68);
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+    text-indent: 30px;
+}
