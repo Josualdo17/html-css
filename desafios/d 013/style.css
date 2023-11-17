@@ -1,0 +1,192 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: blue;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+    
+    
+}
+
+nav>a{
+   
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+     
+}
+
+nav>a:hover{
+    text-decoration: underline;
+    background-color: rgba(240, 248, 255, 0.212);
+    border-radius: 10px;
+    transition: 0.5s;
+
+    
+}
+
+
+
+article.container {
+    background-color: rgb(8, 8, 8);
+    display: inline-block;
+    margin: 0px;
+    
+    
+   
+   
+    
+    
+ 
+}
+aside.content{
+    background-image: url("site-cfite\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    padding: 10vh 10vh 20vh 10vh ;
+    background-position: center   ;
+    height:50vh;
+    
+    
+        
+}
+
+aside>p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: justify;
+}
+aside>div{
+    display: inline-block;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+div.container1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(187, 9, 9);
+    gap:3px;
+    padding-top: 1px;
+
+}
+div.content1{
+    color: rgb(5, 5, 5);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid blue;
+
+}
+div.content1>div{
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+div#c2{
+    margin-top: -60px;
+}
+img{
+    background-size: cover;
+    background-size: 50vh;
+    background-repeat: no-repeat ;
+    height: 100vh;
+    width: 100vh;
+}
+section.container2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    padding-left: 20vh;
+    
+    
+    
+}
+div.content2{
+   display: flex;
+   justify-content: center;
+   gap: 4px;
+   
+
+    background-image: url("site-cfite\ \(5\).png");
+    background-size: cover;
+    background-size: 70vh;
+    background-position: center;
+    background-repeat: no-repeat ;
+    color: rgb(15, 15, 15);
+    border: 1px solid blue;
+    height: 50vh;
+    width: 80vh;
+   
+
+    
+}
+
+div.content2>a>p{
+    
+background-color: brown;
+margin-top: 20vh;
+padding: 15px;
+text-align: center;
+
+}
+div.content2>a{
+    text-decoration: none;
+}
+p#c3{
+    background-color: blue;
+}
+
+/*div#c2{
+    background-size: cover;
+    background-size: 50vh;
+    background-repeat: no-repeat ;
+    height: 50vh;
+}
+
+   
+/*div.container1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 2px 3px;
+    
+    
+    
+    
+    
+
+    
+
+}
+div.content1{
+    border: 1px solid green;
+    background-color: darkgray;
+    height: 50vh;
+    
+
+}
+
+
+
+/*div#content1{
+    background-image: url("site-cfite\ \(4\).png");
+    background-size: cover;
+    background-size: 50vh;
+    background-repeat: no-repeat ;
+    height: 50vh;
+}
+
