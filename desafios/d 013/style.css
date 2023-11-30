@@ -1,102 +1,167 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@700&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *{
+    
     margin: 0px;
     padding: 0px;
 }
 
 nav{
-    background-color: blue;
+ 
+    background-color: #003e7b;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
-    
-    
-    
+    margin-bottom: -20px;
 }
 
-nav>a{
-   
+nav>div>a{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
     text-decoration: none;
     color: white;
-    font-weight: bold;
     padding: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    
+    
+    
      
 }
 
-nav>a:hover{
-    text-decoration: underline;
-    background-color: rgba(240, 248, 255, 0.212);
-    border-radius: 10px;
+nav>div>a:hover{
+    text-decoration: none;
     transition: 0.5s;
+    padding: 1px;
+}
+div.container8{
+    display: flex;
+    justify-content: center;
+}
 
+div.container7{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+   
     
+    
+}
+div.content7{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 11px;
+
+
+  
+   
+}
+i.material-icons{
+    font-size: 20px;
+    color: white;
+    margin-top: -10px;
 }
 
 
 
-article.container {
-    background-color: rgb(8, 8, 8);
-    display: inline-block;
-    margin: 0px;
-    
-    
-   
-   
-    
-    
- 
-}
 aside.content{
-    background-image: url("site-cfite\ \(3\).png");
+    background-image:  url("site-cfite\ \(3\).png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 200vh;
-    padding: 10vh 10vh 20vh 10vh ;
+    background-size: 215vh;
+    padding: 10vh 10vh 25vh 10vh ;
     background-position: center   ;
     height:50vh;
+
     
+  
     
         
 }
 
+
 aside>p{
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: justify;
+    margin-top: 5vh;
+    width: 110vh;
+    
+}
+aside>h1{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    margin-top: 10vh;
+    
+}
+p#p0{
+margin-top: 0px;
 }
 aside>div{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     display: inline-block;
     padding: 10px;
     background-color: brown;
     color: white;
 }
+
 div.container1{
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(187, 9, 9);
-    gap:3px;
     padding-top: 1px;
 
 }
 div.content1{
     color: rgb(5, 5, 5);
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    border: 1px solid blue;
+}
 
+div.content1>h3{
+    line-height: 1.5em;
+    padding: 10px;
 }
 div.content1>div{
     display: inline-block;
     padding: 10px;
-    background-color: blue;
+    background-color:#003e7b;
     color: white;
+    margin-left: 10px;
+}
+div#c1{
+    padding-top: 30px;
+    margin-left: 16vh;
+    font-family: 'Poppins', sans-serif;   
+}
+div#c1>h2{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    color: #003e7b;
+    margin-left: 10px;
+}
+div#c1>h1{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+div#c1>h3{
+    font-size: 20px;
+    
 }
 div#c2{
+    margin-left: -60px;
     margin-top: -60px;
 }
 img{
@@ -108,9 +173,10 @@ img{
 }
 section.container2{
     display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    padding-left: 20vh;
+    margin-right: 20vh;
+    margin-left: 16vh;
+    margin-top: -60px;
+    height: 70vh;
     
     
     
@@ -119,74 +185,92 @@ div.content2{
    display: flex;
    justify-content: center;
    gap: 4px;
-   
-
     background-image: url("site-cfite\ \(5\).png");
     background-size: cover;
     background-size: 70vh;
     background-position: center;
     background-repeat: no-repeat ;
     color: rgb(15, 15, 15);
-    border: 1px solid blue;
+    
     height: 50vh;
-    width: 80vh;
+    width: 50vh;
    
 
     
 }
 
-div.content2>a>p{
+
+div.content2>a>h3{
     
 background-color: brown;
 margin-top: 20vh;
 padding: 15px;
 text-align: center;
+font-family: 'Poppins', sans-serif; 
+color: white;
 
 }
 div.content2>a{
     text-decoration: none;
 }
-p#c3{
-    background-color: blue;
+h3#c3{
+    background-color:#003e7b;
 }
-
-/*div#c2{
-    background-size: cover;
-    background-size: 50vh;
-    background-repeat: no-repeat ;
-    height: 50vh;
-}
-
-   
-/*div.container1{
+section.container3{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    gap: 2px 3px;
-    
-    
-    
-    
-    
+ 
+  margin-top: -25vh;
 
+
+  
+}
+
+div.content3{
+
+    height: 25vh;
+    width: 49vh;
+    
+}
+div.content3>h2>p{
+    margin-left: -25vh;
+    text-align: center;
+}
+
+
+div.c5{
+    background-color: #003e7b;
+    color: white;
+    display: inline-block;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
     
 
 }
-div.content1{
-    border: 1px solid green;
-    background-color: darkgray;
-    height: 50vh;
+
+
+
+div>h1{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 17vh;
+}
+div>h2{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    color: #003e7b;
+    margin-left: 17vh;
+
+}
+footer{
+    font-family: 'Pontano Sans', sans-serif;
     
-
+    background-color: #003e7b;
+    color: white;
+    text-align: center;
 }
 
-
-
-/*div#content1{
-    background-image: url("site-cfite\ \(4\).png");
-    background-size: cover;
-    background-size: 50vh;
-    background-repeat: no-repeat ;
-    height: 50vh;
-}
 
