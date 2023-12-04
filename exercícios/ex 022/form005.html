@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="get">
+      <fieldset>
+        <legend> Sexo </legend>
+        <label for="isx"> Masculino
+            <input type="radio" name="sx" id="isx">
+         </label> <br>
+         <label for="isx"> Femenino
+            <input type="radio" name="sx" id="isx">
+         </label>
+      </fieldset>
+      <fieldset>
+        <legend> Desportos Favoritos</legend>
+        <label for="ib">Basquete <input type="checkbox" name="b" id="ib"></label><br>
+        <label for="if">Futebol <input type="checkbox" name="f" id="if"></label><br>
+        <label for="in">Natação <input type="checkbox" name="n" id="in"></label><br>
+        <label for="it">Tênis   <input type="checkbox" name="t" id="it"></label><br>
+      </fieldset>
+      <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </p>
+    </form>
+    
+</body>
+</html>
